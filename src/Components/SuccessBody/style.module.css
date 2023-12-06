@@ -1,0 +1,40 @@
+.icon {
+  margin-top: 85px;
+}
+
+.button {
+width: 224px;
+
+}
+
+.body {
+  text-align: center;
+  margin: 10px;
+}
+
+.text {
+  color: #000;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 45px;
+}
+
+.paragraph {
+  color: var(--foundation-black-black-7, #8c8c8c);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 39px;
+}

@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Manrope", sans-serif;
+}
+@font-face {
+  font-family: "MyGameGradual";
+  src: local("MyGameGradual"), url(./Fonts/MyGameGradual-ExtraBold.ttf),
+    url(./Fonts/MyGameGradual-ExtraBold.woff),
+    url(./Fonts/MyGameGradual-ExtraBold.woff2);
+}

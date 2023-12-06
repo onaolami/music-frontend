@@ -1,0 +1,49 @@
+.container {
+  gap: 10px;
+}
+.wrapper {
+  display: flex;
+}
+
+.one {
+  display: flex;
+  width: 278px;
+  padding: 16px;
+  border-radius: 6px;
+  background: var(--foundation-black-black-4, #f0f0f0);
+  align-items: center;
+  margin: 10px;
+}
+
+p {
+  color: var(--Black, #1e1e1e);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.word {
+  color: var(--primary, #3235d8);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 40px 20px 0px 20px;
+}
+
+.logo {
+  margin: 40px 20px;
+}
+
+.text {
+  color: var(--primary, #3235d8);
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 20px;
+}

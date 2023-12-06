@@ -1,0 +1,45 @@
+.btn {
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+.variantDefault {
+  background: #d1d1d1;
+  color: #1e1e1e;
+}
+
+.variantPrimary {
+  background: #3235d8;
+  color: #ffffff;
+}
+
+.sizeLarge {
+  font-size: 16px;
+  height: 56px;
+  padding:10px,20px;
+  width:424px
+}
+
+.sizeSmall {
+  height: 32px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.sizeDefault {
+  height: 42px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
