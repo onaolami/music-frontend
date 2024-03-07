@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import styles from "./styles.module.css";
 
-const Input = ({ placeholder, size = "DEFAULT" ,className }) => {
+const Input = ({ placeholder, size = "DEFAULT", className, ...others }) => {
   const sizeStyle = useMemo(() => {
     switch (size) {
       case "SMALL":
@@ -19,9 +19,8 @@ const Input = ({ placeholder, size = "DEFAULT" ,className }) => {
       <input
         type="text"
         placeholder={placeholder}
-        value=""
         className={`${styles.input} ${sizeStyle} ${className}`}
-        onChange=""
+        {...others}
       />
     </div>
   );

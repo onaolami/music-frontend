@@ -1,6 +1,12 @@
 import { useMemo } from "react";
 import styles from "./styles.module.css";
-const Button = ({ children, variant = "DEFAULT", size = "DEFAULT",className }) => {
+const Button = ({
+  children,
+  variant = "DEFAULT",
+  size = "DEFAULT",
+  className,
+  ...others
+}) => {
   const sizeStyle = useMemo(() => {
     switch (size) {
       case "SMALL":
@@ -19,6 +25,7 @@ const Button = ({ children, variant = "DEFAULT", size = "DEFAULT",className }) =
       className={`${styles.btn} ${
         variant === "DEFAULT" ? styles.variantDefault : styles.variantPrimary
       } ${sizeStyle} ${className}`}
+      {...others}
     >
       {children}
     </button>

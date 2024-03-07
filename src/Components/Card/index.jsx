@@ -7,7 +7,7 @@ const Card = ({ image, title, artiste }) => {
         <img className={styles.image} src={image} alt="" />
         <div className={styles.circles}>
           <div className={styles.logo} alt="card">
-            <img src="/Images/play.svg"/>
+            <img src="/Images/play.svg" alt =""/>
           </div>
         </div>
       </div>
